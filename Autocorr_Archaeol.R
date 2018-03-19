@@ -338,6 +338,6 @@ par(mar=c(0,2,5,0))
 plot(FB031,lwd=1.8,col="#CCCCCC",main="FB031: Preservation",cex.main=1.5)
 plot(RR_FB031,cex=1.5,pch=c(16,1)[RR_FB031$Preserva_1],add=T)
 legend(-350,10,legend=c("Complete","Fragment"),pt.cex=1.2,
-       pch=RRJCS_pch)
+       pch=c(16,1))
 map.scale(-240,-110,len=200,units="meters",ndivs=2,subdiv=1)
 dev.off()
